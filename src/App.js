@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionComp from './components/FunctionComp';
+import ClassComp from './components/ClassComp';
+import Jsx from './components/Jsx';
+import Props from './components/Props';
+import ClassCounter from './components/ClassCounter';
+import EventBinding from './components/EventBinding';
+import CondtionalRendering from './components/CondtionalRendering';
+import MapMethod from './components/MapMethod';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FunctionComp/>
+      <ClassComp/>
+      <Jsx/>
+      <Props name={"Prop"}><h2>I am Props.children</h2></Props>
+      <ClassCounter/>
+      <EventBinding/> */}
+      {/* <CondtionalRendering/> */}
+      <MapMethod/>
     </div>
   );
 }
