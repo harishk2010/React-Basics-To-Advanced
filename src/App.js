@@ -8,6 +8,12 @@ import ClassCounter from './components/ClassCounter';
 import EventBinding from './components/EventBinding';
 import CondtionalRendering from './components/CondtionalRendering';
 import MapMethod from './components/MapMethod';
+import PortalDemo from './components/PortalDemo';
+import UseState1 from './components/UseState1';
+import UseSTateWIthPrev from './components/UseSTateWIthPrev';
+import UseSTateWIthObject from './components/UseSTateWIthObject';
+import UseStateWithArray from './components/UseStateWithArray';
+import UseEffectFetch from './components/UseEffectFetch';
 
 
 function App() {
@@ -20,7 +26,13 @@ function App() {
       <ClassCounter/>
       <EventBinding/> */}
       {/* <CondtionalRendering/> */}
-      <MapMethod/>
+      {/* <MapMethod/>
+      <PortalDemo/> */}
+      {/* <UseState1/> */}
+      {/* <UseSTateWIthPrev/> */}
+      {/* <UseSTateWIthObject/> */}
+      {/* <UseStateWithArray/> */}
+      <UseEffectFetch/>
     </div>
   );
 }
