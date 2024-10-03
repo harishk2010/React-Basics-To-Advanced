@@ -14,6 +14,11 @@ import UseSTateWIthPrev from './components/UseSTateWIthPrev';
 import UseSTateWIthObject from './components/UseSTateWIthObject';
 import UseStateWithArray from './components/UseStateWithArray';
 import UseEffectFetch from './components/UseEffectFetch';
+import UseReduceCounter from './components/UseReduceCounter';
+import Memos from './components/Memos';
+import Test from './components/Test';
+import Context from './components/Context';
+import Simple from './components/Simple';
 
 
 function App() {
@@ -32,7 +37,12 @@ function App() {
       {/* <UseSTateWIthPrev/> */}
       {/* <UseSTateWIthObject/> */}
       {/* <UseStateWithArray/> */}
-      <UseEffectFetch/>
+      {/* <UseEffectFetch/> */}
+      {/* <UseReduceCounter/> */}
+      {/* <Memos/> */}
+      {/* <Test/> */}
+      {/* <Context/> */}
+      <Simple/>
     </div>
   );
 }
